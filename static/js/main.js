@@ -41,14 +41,6 @@ $(function () {
 'use strict';
 
 $(function () {
-    if ($('.pagename').lenght !== 0) {
-        $('.pagename').html($('.section__title').first().text());
-        $('.pagename').css('width', $('.content_page').css('height'));
-    }
-});
-'use strict';
-
-$(function () {
     function validate(e) {
         e.preventDefault();
         var fieldList = $('.connect__field');
@@ -102,6 +94,14 @@ $(function () {
         $(this).toggleClass('show');
         $('.cv-text').finish().slideToggle();
     });
+});
+'use strict';
+
+$(function () {
+    if ($('.pagename').lenght !== 0) {
+        $('.pagename').html($('.section__title').first().text());
+        $('.pagename').css('width', $('.content_page').css('height'));
+    }
 });
 'use strict';
 

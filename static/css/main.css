@@ -841,6 +841,28 @@ a {
             transform: translate3d(10px, 0, 0);
   }
 }
+.contact {
+  padding: 30px 0;
+  text-align: justify;
+  border-top: 1px solid #e8e8e8;
+}
+.contact::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  content: '';
+}
+.contact__block {
+  display: inline-block;
+}
+.contact__name {
+  display: block;
+  font-size: 18px;
+}
+.contact__val {
+  font-size: 30px;
+  text-decoration: none;
+}
 .content p {
   font-size: 16px;
   line-height: 26px;
@@ -1378,4 +1400,26 @@ a {
   width: 400px;
   height: 396px;
   background: url('../img/assets/service/service-inter.png') no-repeat;
+}
+.contact {
+  padding: 30px 0;
+  text-align: justify;
+  border-top: 1px solid #e8e8e8;
+}
+.contact::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  content: '';
+}
+.contact__block {
+  display: inline-block;
+}
+.contact__name {
+  display: block;
+  font-size: 18px;
+}
+.contact__val {
+  font-size: 30px;
+  text-decoration: none;
 }
